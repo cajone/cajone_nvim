@@ -16,5 +16,6 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   { import = "plugins.ui.colorscheme" }, -- ColorScheme : TokyoNight
+  { import = "plugins.git" }, -- Git Fugitive and other tools
   { import = "plugins.lsp.lsp_config" }, -- Lsp Config
 })

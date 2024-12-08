@@ -5,7 +5,7 @@ M = {
   { "cohama/agit.vim" },    -- Git history Tree
 
   -- Git Diffview
-  { "sindrets/diffview.nvim" }, -- gitdiff view
+  { "sindrets/diffview.nvim" }, -- gitdiff view, awesome tool cannot work without it !!
   { "nvim-lua/plenary.nvim" },
 
   -- GitSigns

@@ -8,8 +8,11 @@ This is the very basic configuration of the directory structure, only thing that
     - Where all the plugins will be stored, first one loaded is Lazy the plugin package manager: [Lazy](https://lazy.folke.io/)
     - lsp
         lsp_config : Added support for lua - See omnifunc \<Ctrl-X\>\<Ctrl-o\>
+    - git
+        git module contains tools such as fugitive, diffview, to allow interaction with git without having to step back to the command line
 
 ```script
+
 .
 ├── init.lua
 ├── lazy-lock.json
@@ -18,12 +21,12 @@ This is the very basic configuration of the directory structure, only thing that
 │   │   └── init.lua
 │   ├── init.lua
 │   └── plugins
+│       ├── git.lua
 │       ├── init.lua
 │       ├── lazy_load.lua
 │       └── lsp
 │           └── lsp_config.lua
 └── README.md
 
-5 directories, 8 files
-
+5 directories, 9 files
 ```

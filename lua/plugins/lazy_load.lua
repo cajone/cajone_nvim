@@ -15,5 +15,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  { import = "plugins.git" }, -- Git Fugitive and other tools
   { import = "plugins.lsp.lsp_config" }, -- Lsp Config
 })

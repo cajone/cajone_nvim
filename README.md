@@ -6,18 +6,24 @@ This is the very basic configuration of the directory structure, only thing that
     - houses configuration like key bindings, options, local functions ( empty currently )
 - plugins
     - Where all the plugins will be stored, first one loaded is Lazy the plugin package manager: [Lazy](https://lazy.folke.io/)
+    - lsp
+        lsp_config : Added support for lua - See omnifunc \<Ctrl-X\>\<Ctrl-o\>
 
 ```script
 .
 ├── init.lua
-└── lua
-    ├── custom
-    │   └── init.lua
-    ├── init.lua
-    └── plugins
-        ├── init.lua
-        └── lazy_load.lua
+├── lazy-lock.json
+├── lua
+│   ├── custom
+│   │   └── init.lua
+│   ├── init.lua
+│   └── plugins
+│       ├── init.lua
+│       ├── lazy_load.lua
+│       └── lsp
+│           └── lsp_config.lua
+└── README.md
 
-4 directories, 5 files
+5 directories, 8 files
 
 ```
